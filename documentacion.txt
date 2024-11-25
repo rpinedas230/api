@@ -1,0 +1,15 @@
+# Documentación del Proceso
+
+## Decisiones Técnicas
+1. Framework: Se utilizó FastAPI debido a su facilidad para crear APIs rápidas y documentadas.
+2. Modelo y Pipelines: Los pipelines y el modelo fueron cargados utilizando la librería "dill".
+3. Logging: Se implementó un sistema de registro en un archivo CSV para monitoreo y análisis del desempeño del modelo.
+
+## Flujo del Proceso
+1. Entrada: La API recibe los datos de una solicitud individual.
+2. Preprocesamiento: Se aplica un pipeline secuencial para preparar los datos.
+3. Predicción: Se utiliza un modelo `LinnearRegression` para predecir el tiempo en semanas.
+4. Salida: Se devuelve la predicción en formato JSON.
+
+## Pruebas y Validaciones
+- Se realizaron pruebas para verificar el correcto funcionamiento de la API con una y varias solicitudes.

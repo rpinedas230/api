@@ -1,0 +1,62 @@
+{
+	"id": "85332ce0-0b29-46ad-9aab-c52c25582671",
+	"name": "stress_test",
+	"timestamp": "2024-11-25T13:47:42.262Z",
+	"collection_id": "39917033-a03b2ac9-a2d9-4f02-99ea-554364b29973",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-25T13:45:40.827Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6978917d-1f64-4262-879e-544ae68fb101",
+			"name": "http://127.0.0.1:8000/predict/\n",
+			"url": "http://127.0.0.1:8000/predict/\n",
+			"time": 12019,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12044,
+				12015,
+				12018,
+				12014,
+				12017,
+				12015,
+				12017,
+				12017,
+				12016,
+				12019
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 120192,
+	"collection": {
+		"requests": [
+			{
+				"id": "6978917d-1f64-4262-879e-544ae68fb101",
+				"method": "POST"
+			}
+		]
+	}
+}
